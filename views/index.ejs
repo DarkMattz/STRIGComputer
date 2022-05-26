@@ -1,10 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= test %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <%- include('template/~~must-added-tags~~') %>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/index.css' />
   </head>
   <body>
-    
+    <%- include('template/header-nonlogged') %>
+    <section class="banner">
+      <div class="context">
+        <div class="context-inside">
+          <h1>Tempat Pembelian Komponen Komputer</h1>
+          <p>Baru atau bekas yang berkualitas dan bergaransi</p>
+          <a href="#category">> Temukan Produk</a>
+        </div>
+      </div>
+      <img src="images/Banner.png" alt="banner-image">
+    </section>
+    <section class="category">
+      <h1 class="title">
+        Apa yang ingin anda beli?
+      </h1>
+      <div class="products">
+        <div class="cpu">
+          <img src="images/cpu-icon.png" alt="cpu-icon">
+          <p>CPU</p>
+        </div>
+        <div class="gpu">
+          <img src="images/gpu-icon.png" alt="gpu-icon">
+          <p>GPU</p>
+        </div>
+        <div class="cooler">
+          <img src="images/cooler-icon.png" alt="cooler-icon">
+          <p>Cooler</p>
+        </div>
+        <div class="ram">
+          <img src="images/ram-icon.png" alt="ram-icon">
+          <p>RAM</p>
+        </div>
+        <div class="storage">
+          <img src="images/storage-icon.png" alt="storage-icon">
+          <p>Storage</p>
+        </div>
+        <div class="psu">
+          <img src="images/psu-icon.png" alt="psu-icon">
+          <p>PSU</p>
+        </div>
+        <div class="motherboard">
+          <img src="images/motherboard-icon.png" alt="motherboard-icon">
+          <p>Motherboard</p>
+        </div>
+        <div class="peripheral">
+          <img src="images/peripheral-icon.png" alt="peripheral-icon">
+          <p>Periferal</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
