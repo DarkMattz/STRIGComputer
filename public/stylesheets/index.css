@@ -100,16 +100,52 @@ section{
 .recommendation-products{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-card{
-  width: 150px;
-  height: 300px;
-  padding: 20px;
+  margin: 5px 20px;
+  border-radius: 12px;
+  width: 250px;
+  height: 300px;  
   background-color: white;
   display: flex;
   flex-direction: column;
-  border: 1px black solid;
+  box-shadow: black 0px 0px 15px -6px;
+}
+
+.product-card .condition{
+  align-self: flex-end;
+  color: white;
+  padding: 5px 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.product-card .new{
+  background-color: #2CA64E;
+}
+
+
+.product-card .used{
+  background-color: #B08D57;
+}
+
+.product-card .product-card-info{
+  padding: 0 20px;
+}
+
+.product-card .rating{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.product-card .rating img{
+  height: 20px;
+  margin-right: 10px;
+  padding-bottom: 2px;
 }
 
 .sell-banner{
