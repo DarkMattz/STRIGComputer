@@ -24,6 +24,9 @@ jQuery(() => {
         "Scheme"
       ]
     $("#input-search").autocomplete({
-        source: availableTags
+        source: availableTags,
+        open: function(event, ui) {
+            $(".ui-autocomplete > li").wrapAll("<div class='autocomplete-menu'></div>")
+        }
     })
 })
