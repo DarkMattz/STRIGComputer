@@ -1,0 +1,40 @@
+footer div{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+footer .top-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer section{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer section > *{
+    margin: 10px 0;
+}
+
+footer section p{
+    font-weight: bold;
+}
+
+footer div > p{
+    color: #656565;
+}
+
+footer section a{
+    color: #656565;
+    text-decoration: none;
+}
+
+footer section > *:first-child{
+    display: flex;
+    align-items: center;
+    height: 70px;
+}

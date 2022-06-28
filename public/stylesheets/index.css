@@ -97,9 +97,62 @@ section{
   object-fit: contain;
 }
 
+.recommendation-products{
+  display: flex;
+  flex-direction: row;
+}
+
 .product-card{
+  width: 150px;
+  height: 300px;
+  padding: 20px;
   background-color: white;
   display: flex;
   flex-direction: column;
-  
+  border: 1px black solid;
+}
+
+.sell-banner{
+  background-color: #EEEEEE;
+  height: 88vh;
+  display: flex;
+}
+
+
+.sell-banner > img{
+  width: 50vw;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+
+.sell-banner .context{
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sell-banner .context-inside{
+  width: 70%;
+}
+
+.sell-banner .context-inside p{
+  font-size: x-large;
+  margin: 10px 0;
+  font-weight: lighter;
+}
+
+.sell-banner .context-inside h1{
+  font-size: xx-large;
+  margin: 0;
+}
+
+.sell-banner .context-inside a{
+  font-size: large;
+  display: inline-block;
+  color: #FF8C32;
+  font-weight: bold;
+  margin-top: 10vh;
 }
