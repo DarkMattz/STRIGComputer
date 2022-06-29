@@ -6,6 +6,7 @@ class Product{
     #condition //new or used
     #image
 
+
     constructor(id, name, category, price, condition, image){
         this.#id = id
         this.#name = name
