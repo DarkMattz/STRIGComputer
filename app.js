@@ -11,6 +11,8 @@ var testerRouter = require('./routes/tester');
 
 var app = express();
 
+require('./model/tester.js')
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');

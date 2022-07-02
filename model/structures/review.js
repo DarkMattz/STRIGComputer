@@ -33,3 +33,7 @@ class Review{
         this.#rating = rating
     }
 }
+
+module.exports = (userID, productID, rating) => {
+    return new Review(userID, productID, rating)
+}
