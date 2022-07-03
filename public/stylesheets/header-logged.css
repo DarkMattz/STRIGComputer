@@ -72,18 +72,6 @@
     height: 40px;
 }
 
-.logged-header .header-login{
-    margin: 0 30px;
-    cursor: pointer;
-    padding: 15px 20px;
-    width: 120px;
-    border-radius: 90px;
-    border: 2px solid #FF8C32;
-    background-color: unset;
-    color: #FF8C32;
-    font-weight: bold;
-}
-
 .logged-header .header-jual{
     cursor: pointer;
     padding: 15px 20px;
@@ -93,6 +81,21 @@
     background-color: #FF8C32;
     color: white;
     font-weight: bold;
+}
+
+.logged-header .loggedin-image img{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.logged-header .loggedin-image{
+    display: flex;
+    align-items: center;
+    background: none;
+    margin: 0 30px;
+    border: none;
+    cursor: pointer;
 }
 
 .ui-autocomplete{
@@ -129,4 +132,52 @@
 
 .ui-helper-hidden-accessible {
     display: none;
+}
+
+.profile-dropdown{
+    position: fixed;
+    right: 10vw;
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    background-color: white;
+}
+
+.profile-dropdown > *{
+    padding: 15px 20px;
+}
+
+.profile-dropdown a{
+    color: black;
+    text-decoration: none;
+}
+
+.profile-dropdown > * {
+    border-bottom: 2px #C9C9C9 solid;
+}
+
+.profile-dropdown .logout-btn{
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+    background: none;
+    text-align: right;
+    color: red;
+    border: none;
+    font-size: larger;
+}
+
+.tiny-profile{
+    display: flex;
+    flex-direction: row;
+    box-shadow: black 0px 3px 10px -7px;
+}
+
+.tiny-profile img{
+    margin-right: 20px;
+    height: 50px;
+}
+
+.tiny-profile p{
+    font-weight: bold;
 }

@@ -4,7 +4,27 @@ jQuery(() => {
     if(localStorage.getItem(userKey) != null){
         $('.nonlogged-header').addClass('hide')
         $('.logged-header').removeClass('hide')
+        $('.tiny-profile .name').text(localStorage.getItem(userKey).split(',')[1])
     }
+
+    $('.loggedin-image').on('click', () => {
+        $(".profile-dropdown").removeClass('hide')
+        setTimeout(() => {$(document).on('click', e => {
+            let container = $(".profile-dropdown")
+    
+            if (!container.is(e.target) && container.has(e.target).length === 0) 
+            {
+                container.addClass('hide')
+                $(document).off('click')
+            }
+        })}, 20)  
+    })
+
+
+    $('.logout-btn').on('click', () => {
+        localStorage.removeItem(userKey)
+        location.reload()
+    })
 
     $(".header-login").on('click', () => {
         $(".login-regist-wrapper").removeClass("hide")
