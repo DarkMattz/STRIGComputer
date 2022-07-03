@@ -5,9 +5,7 @@ This app made for my university assignment.
 Not 100% done, overwhelmed by the backend.
 
 # Description
-STRIGComputer is a online shop where people can buy and sell computer parts.
-
-StrigComputer have a warranty for all of their products.
+STRIGComputer is a online shop where people can buy and sell computer parts.\nSTRIGComputer have a warranty for all of their products.
 
 # Access the app
 You can access this application at [strigcomputer.herokuapp.com](https://strigcomputer.herokuapp.com)
