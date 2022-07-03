@@ -13,3 +13,8 @@ StrigComputer have a warranty for all of their products.
 1. Make sure to have NodeJS installed on your PC.
 2. Clone the repo.
 3. Run ```npm start``` in Terminal or Command Prompt
+
+# Database don't work?
+This app is using a database from Dewacloud.
+
+Please contact me to activate the database, as it cost my free usage limit.
