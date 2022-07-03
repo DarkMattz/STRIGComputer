@@ -10,7 +10,7 @@ STRIGComputer is a online shop where people can buy and sell computer parts.
 StrigComputer have a warranty for all of their products.
 
 # Access the app
-You can access this application at [strigcomputer.heroku.com](https://strigcomputer.heroku.com)
+You can access this application at [strigcomputer.herokuapp.com](https://strigcomputer.herokuapp.com)
 
 # How to build
 1. Make sure to have NodeJS installed on your PC.
