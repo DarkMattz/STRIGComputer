@@ -20,7 +20,6 @@ jQuery(() => {
         })}, 20)  
     })
 
-
     $('.logout-btn').on('click', () => {
         localStorage.removeItem(userKey)
         location.reload()
@@ -28,6 +27,16 @@ jQuery(() => {
 
     $(".header-login").on('click', () => {
         $(".login-regist-wrapper").removeClass("hide")
+        setTimeout(() => {$(document).on('click', e => {
+            let container = $(".login-regist-wrapper > *")
+    
+            if (!container.is(e.target) && container.has(e.target).length === 0) 
+            {
+                container.addClass('hide')
+                $(".login-regist-wrapper").addClass("hide")
+                $(document).off('click')
+            }
+        })}, 120)  
         $(".user-login").removeClass("hide")
     })
 
