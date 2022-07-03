@@ -1,4 +1,9 @@
 # STRIGComputer
-The first NodeJS app training. This app made for my university assignment.
+The first NodeJS training. 
+This app made for my university assignment.
 
-Not 100% done, overwhelmed by the backend
+# Description
+STRIGComputer is a online shop where people can buy and sell computer parts.
+StrigComputer have a warranty for all of their products.
+
+Not 100% done, overwhelmed by the backend.
