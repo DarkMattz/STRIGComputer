@@ -28,7 +28,7 @@ class UserCreator {
         let sendQuery = `INSERT INTO user (name, phone, email, password) VALUES ('${name}', '${phone}', '${email}', '${passwordHashed}')`
         this.#dbConnection.query(sendQuery, (err, res) => {
             if(err != null){
-                console.error('Database Query Error : ', err.message)
+                console.error('Database Query Error: ', err.message)
             } else {
                 return 'User creation successful'
             }

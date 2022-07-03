@@ -96,7 +96,7 @@
 }
 
 .ui-autocomplete{
-    position: absolute;
+    position: fixed;
     font-family: sans-serif;
     list-style: none;
     padding: 0;

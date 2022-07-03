@@ -1,7 +1,5 @@
 //WHAT HAVE I DONE? I THOUGHT SOFTWARE DEVELOPMENT IS EASY EH?
-//FFS I THINK IT'S NOT
-//I THINK IT'S NOT
-//I THINK IT'S NOT
+//FFS NOW I KNOW IT'S NOT
 //HELP ME
 
 //I DID THIS TO MYSELF
@@ -17,6 +15,6 @@
 
 //HELP I FEEL LIKE IM DYING!!!
 
-require('./UserCreator').createUser('John', '1234567890', 'jonwick@wicked.com', 'password')
+//Gonna make a song oout of this tommorow, yeah yeah yeah
 
-
+//this js supposed to be a module test, but now this is "tempat curhat"

@@ -11,7 +11,7 @@ class AddressHandler{
         let query = `INSERT INTO address (userId, address) VALUES ('${user.id}', '${address}')`
         this.#dbConnection.query(query, (err, res) => {
             if(err != null){
-                console.error('Database Query Error : ', err.message)
+                console.error('Database Query Error: ', err.message)
             } else {
                 return 'Address added successfully'
             }
