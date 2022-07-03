@@ -1,6 +1,6 @@
 # STRIGComputer
 The first NodeJS training.</br>
-This app made for my university assignment.</br>
+This app made for my university assignment.</br></br>
 Not 100% done, overwhelmed by the backend.
 
 # Description
@@ -16,6 +16,6 @@ You can access this application at [strigcomputer.herokuapp.com](https://strigco
 3. Run ```npm start``` in Terminal or Command Prompt
 
 # Database don't work?
-This app is using a database from Dewacloud.</br>
-Please contact me to activate the database, as it cost my free usage limit.</br>
+This app is using a database from Dewacloud.</br></br>
+Please contact me to activate the database, as it cost my free usage limit.</br></br>
 Or you can change the model/database/connect.js to your own localhost to try this app.
