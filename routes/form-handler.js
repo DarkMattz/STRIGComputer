@@ -15,7 +15,6 @@ app.post('/login', (req, res, next) => {
 
 app.post('/register', (req, res, next) => {
     require('../model/UserCreator').createUser(req.body.name, req.body.tel, req.body.email, req.body.password)
-    
     setTimeout(() => {
         require('../model/UserGetter').signInWithEmailAndPassword(req.body.email, req.body.password).then(signInRes => {
             require('../model/AddressHandler').addAddress(signInRes, req.body.address)
@@ -24,7 +23,6 @@ app.post('/register', (req, res, next) => {
             res.send(err.message)
         })
     }, 1000)
-    
 })
 
 module.exports = app;

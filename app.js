@@ -26,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/sell', sellRouter);
+app.use('/tester', testerRouter);
 
 
 var posthandler = require("./routes/form-handler")

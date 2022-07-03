@@ -8,49 +8,9 @@
     <link rel='stylesheet' href='/stylesheets/index.css' />
   </head>
   <body>
-    <section class="login-regist-wrapper hide">
-      <div class ="user-login hide">
-        <h1>Login</h1>
-        <form method="post">
-          <label for="email">Email: </label><br>
-          <input type="email" name="email" id="email-login"><br>
-          <label for="password">Password: </label><br>
-          <input type="password" name="password" id="password-login">
-          <div class="change-btn">
-            <p>Belum punya akun? <span class="register">Registrasi akun</span></p>
-            <button type="submit">Login</button>
-          </div>
-        </form>
-      </div>
-      <div class ="user-regist hide">
-        <h1>Register</h1>
-        <form action="/register" method="post">
-          <div class="first">
-            <label for="name">Nama: </label><br>
-            <input type="name" name="name" id="name"><br>
-            <label for="email">Email: </label><br>
-            <input type="email" name="email" id="email"><br>
-            <label for="password">Password: </label><br>
-            <input type="password" name="password" id="password">
-            <div class="change-btn">
-              <p>Sudah punya akun? <span class="login">Login akun</span></p>
-              <div>Selanjutnya</div>
-            </div>
-          </div>
-          <div class="second hide">
-            <label for="tel">Nomor Telepon:</label><br>
-            <input type="tel" name="tel" id="tel"><br>
-            <label for="address">Alamat:</label><br>
-            <textarea name="address" id="address" cols="30" rows="10"></textarea>
-            <div class="change-btn">
-              <p>Sudah punya akun? <span class="login">Login akun</span></p>
-              <button type="submit">Register</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
+    <%- include('template/login-regist-overlay') %>
     <%- include('template/header-nonlogged') %>
+    <%- include('template/header-logged') %>
     <section class="banner">
       <div class="context">
         <div class="context-inside">

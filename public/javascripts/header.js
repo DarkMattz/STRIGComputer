@@ -1,6 +1,11 @@
 let userKey = 'USER'
 
 jQuery(() => {
+    if(localStorage.getItem(userKey) != null){
+        $('.nonlogged-header').addClass('hide')
+        $('.logged-header').removeClass('hide')
+    }
+
     $(".header-login").on('click', () => {
         $(".login-regist-wrapper").removeClass("hide")
         $(".user-login").removeClass("hide")
